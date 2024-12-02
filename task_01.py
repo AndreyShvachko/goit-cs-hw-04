@@ -24,7 +24,7 @@ def worker(file_list, keywords, results):
 def main():
     # Задати список файлів і ключові слова
     directory = "/Users/andreyshvachko/Woolf/HW/goit-cs/goit-cs-hw-04" 
-    keywords = ["Peugeot", "Quadrifoglio", "Jeep", "Wrangler", "Sahara", "Grand Cherokee", "opel", "Vectra"]
+    keywords = ["Peugeot", "Quadrifoglio", "Jeep", "Wrangler", "Sahara", "Grand Cherokee", "opel", "Vectra", "Berlingo"]
     file_list = [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith('.txt')]
 
     # Створити чергу для результатів
